@@ -1,0 +1,10 @@
+package dto;
+
+import java.util.List;
+
+public record Market(
+        long id,
+        String name,
+        List<Runner> runners
+) {
+}
